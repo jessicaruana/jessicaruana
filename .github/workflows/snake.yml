@@ -1,0 +1,30 @@
+name: Generate Snake (Synthwave)
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Atualiza todo dia à meia-noite UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build Snake Animation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate Snake (Synthwave)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: jessicaruana
+          outputs: |
+            dist/github-contribution-grid-snake-synthwave.svg?palette=synthwave
+
+      - name: Upload to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
