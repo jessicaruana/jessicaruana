@@ -3,7 +3,7 @@
 
 
 - 🔭 Atualmente estou trabalhando em um projeto de pesquisa na área de web semântica que usa diagrama OntoUML e linguagens OWL para a geração de ontologias 
-- 👯 Estou procurando colaborar em pesquisas em envolvem tecnologia e interface com o usuário
+- 👯 Estou procurando colaborar em pesquisas que envolve tecnologia e interface com o usuário
 
 [![Jéssica GitHub stats](https://github-readme-stats.vercel.app/api?username=jessicaruana&show_icons=true&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats)
 
