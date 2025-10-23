@@ -13,4 +13,11 @@
 <img align="center" alt="jessi-vs" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg">
 </div>
 
-![Snake animation](https://raw.githubusercontent.com/jessicaruana/jessicaruana/output/github-contribution-grid-snake-synthwave.svg)
+#
+
+
+<picture align="center">
+  <source media="(prefers-color-scheme: Synthwave)" srcset="https://raw.githubusercontent.com/jessicaruana/jessicaruana/output/github-contribution-grid-snake-Synthwave.svg">
+  <source media="(prefers-color-scheme: Synthwave)" srcset="https://raw.githubusercontent.com/jessicaruana/jessicaruana/output/github-contribution-grid-snake-dark.svg">
+  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/jessicaruana/jessicaruana/output/github-contribution-grid-snake.svg">
+</picture>
